@@ -2,10 +2,18 @@
 
 int main()
 {
-	{
-		Tamagotchi tama;
+	bool keepPlaying = true;
 
-		tama.Play();
+	while (keepPlaying)
+	{
+		{
+			Tamagotchi tama;
+
+			tama.Play();
+		}
+
+		std::cout << "Play again? 1 for yes, 0 to exit.\n";
+		std::cin >> keepPlaying;
 	}
 
 	return 0;

@@ -8,7 +8,7 @@ Tamagotchi::Tamagotchi()
 
 Tamagotchi::~Tamagotchi()
 {
-	std::cout << "Poor Tamagotchi passed away because of your awful care. You should feel bad. >:(";
+	std::cout << "Poor Tamagotchi passed away because of your awful care. You should feel bad. >:(\n";
 }
 
 void Tamagotchi::Play()
