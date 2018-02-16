@@ -11,11 +11,6 @@ Tamagotchi::~Tamagotchi()
 	std::cout << "Poor Tamagotchi passed away because of your awful care. You should feel bad. >:(\n";
 }
 
-void Tamagotchi::Play()
-{
-	PlayerInput();
-}
-
 bool Tamagotchi::IsAlive()
 {
 	return mAlive;
@@ -48,7 +43,7 @@ void Tamagotchi::Die(Death cause)
 	mAlive = false;
 }
 
-void Tamagotchi::PlayerInput()
+void Tamagotchi::Play()
 {
 	int input = 0;
 	while (IsAlive())

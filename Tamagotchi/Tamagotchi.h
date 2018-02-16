@@ -22,7 +22,6 @@ class Tamagotchi
 	int mHealth = 3;
 	bool mAlive = true;
 
-	void PlayerInput();
 	bool IsAlive();
 	void Die(Death cause);
 
