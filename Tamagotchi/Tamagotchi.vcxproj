@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CoinFlip.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Tamagotchi.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoinFlip.h" />
+    <ClInclude Include="Tamagotchi.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
