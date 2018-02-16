@@ -3,7 +3,7 @@
 
 int FlipCoin()
 {
-	if (rand() % 10 + 1 == 1)
+	if (rand() % 2 + 1 == 1)
 	{
 		return 1;
 	}

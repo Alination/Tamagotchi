@@ -32,7 +32,7 @@ void Tamagotchi::Die(Death cause)
 		std::cout << "Tamagotchi ate so much that it exploded.\n";
 		break;
 	case overdosed:
-		std::cout << "Tamagotchi had so many medicines it overdosed.\n";
+		std::cout << "Tamagotchi had so much medicine it overdosed.\n";
 		break;
 	case depressed:
 		std::cout << "Tamagotchi was so depressed that it killed itself.\n";
